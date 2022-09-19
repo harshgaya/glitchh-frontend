@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
+
+.Privacy_Security {
+    height: 100vh;
+    width: 75vw;
+    background-color: #1E1E1E;
+    border-radius: 10px;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    /* padding-top: 20px; */
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    justify-content: space-around;
+
+
+}
+
+.Privacy_Security_Text {
+    font-weight: 400;
+    font-size: 25px;
+
+}
+
+.Account_Settings {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    /* height: 140px; */
+    /* background-color: red; */
+    gap: 20px;
+}
+
+.Account_Settings_Text {
+    color: #DEDEDE;
+    font-size: 20px;
+}
+
+.Account_Settings_OtherText {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    /* background-color: yellow; */
+}
+
+.Account_Settings_OtherText_Private_Account {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: red; */
+}
+
+.tick_box {
+    height: 15px;
+    width: 15px;
+    background-color: #A9A9A9;
+    border-radius: 3px;
+    margin-right: 10px;
+
+}
+
+.Account_Settings_OtherText_Private_Account_Text {
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.Account_Settings_OtherText_Long_Text {
+    font-weight: 400;
+    font-size: 12px;
+    color: #9F9F9F;
+}
+
+.Account_Settings_OtherText_Change_Account {
+    font-weight: 400;
+    font-size: 15px;
+    color: white;
+}

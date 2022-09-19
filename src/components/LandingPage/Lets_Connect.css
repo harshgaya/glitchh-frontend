@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap');
+
+
+.lets-connect {
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.86),
+            rgba(0, 0, 0, 0.86)), url('../../Assets/LandingPage/lets_connect/background_image.png');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    /* z-index: -1; */
+
+}
+
+.texts {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    top: 150px;
+    left: 160px;
+
+
+
+}
+
+.lets-text {
+    height: fit-content;
+
+    font-family: 'Teko', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 120px;
+    line-height: 72px;
+    color: white;
+}
+
+.lets-text::first-letter {
+    color: #FFBD3D;
+}
+
+.connect-text {
+
+    font-family: 'Teko', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 120px;
+    line-height: 72px;
+    color: white;
+
+}
+
+.other-text {
+    font-family: 'Teko', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 35px;
+    color: white;
+
+}
+
+/* .ellipse {
+    height: 100%;
+    width: 40%;
+    position: absolute;
+    right: 40px;
+    display: flex;
+    align-items: center;
+
+}
+
+.ellipse img {
+    height: 480px;
+    width: 768px;
+    object-fit: contain;
+    background-position: center;
+    background-size: cover;
+} */
+
+.firegirl {
+    height: 100%;
+    width: 40%;
+    position: absolute;
+    right: 40px;
+    display: flex;
+
+    justify-content: center;
+    align-items: flex-end;
+    /* background-color: red; */
+    /* background-image: url('../../Assets/LandingPage/lets_connect/Ellipse.png');
+    background-position: center;
+    background-size: 100% 60%;
+    background-repeat: no-repeat; */
+
+}
+
+
+
+.firegirl img {
+    max-width: 90%;
+    max-height: 90%;
+    object-fit: cover;
+}
+
+
+
+
+
+@media (max-width:780px) {
+    .lets-connect {
+        height: 100vh;
+        width: 100vw;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.86),
+                rgba(0, 0, 0, 0.86)), url('../../Assets/LandingPage/lets_connect/background_image.png');
+        background-position: center;
+        background-size: cover;
+        position: relative;
+        z-index: -1;
+
+    }
+
+    .texts {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        /* background-color: red; */
+        left: 0;
+        flex-wrap: wrap;
+    }
+
+    .lets-text {
+        height: fit-content;
+
+        font-family: 'Teko', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25vw;
+        line-height: 72px;
+        color: white;
+        flex-shrink: 2;
+    }
+
+    .lets-text::first-letter {
+        color: #FFBD3D;
+    }
+
+    .connect-text {
+
+        font-family: 'Teko', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25vw;
+        line-height: 72px;
+        color: white;
+        margin-top: 10px;
+
+    }
+
+    .other-text {
+        font-family: 'Teko', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-weight: 300;
+        font-size: 30px;
+        line-height: 35px;
+        color: white;
+        text-align: center;
+        margin-top: 10px;
+
+    }
+
+    .firegirl {
+        display: none;
+
+    }
+
+    .button {
+        margin-top: 15px;
+
+    }
+
+
+
+
+}

@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&family=Montserrat:wght@900&family=Open+Sans:wght@300;400;600;700&family=Ubuntu:wght@300&display=swap');
+
+.glitchh-for-page {
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.70),
+            rgba(0, 0, 0, 0.86)), url('../../Assets/LandingPage/glitchh_for_staying/background.png');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: -1;
+
+}
+
+.snow-char-light {
+    height: 100%;
+    width: 40%;
+    position: absolute;
+    left: 160px;
+    display: flex;
+
+    justify-content: center;
+    align-items: flex-end;
+    /* background-color: red; */
+    /* background-image: url('../../Assets/LandingPage/lets_connect/Ellipse.png');
+    background-position: center;
+    background-size: 100% 60%;
+    background-repeat: no-repeat; */
+
+}
+
+
+
+.snow-char-light img {
+    max-width: 90%;
+    max-height: 90%;
+    object-fit: cover;
+}
+
+.glitchh-for-staying-texts {
+    width: 500px;
+    /* background-color: red; */
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    align-items: flex-end;
+    position: absolute;
+    right: 40px;
+
+
+}
+
+.glitchh-text span {
+    height: fit-content;
+    display: inline-block;
+
+    font-family: 'Teko', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 72px;
+    color: #E82352;
+}
+
+.glitchh-text {
+    height: fit-content;
+    display: inline-block;
+
+    font-family: 'Teko', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 72px;
+    color: white;
+
+}
+
+.staying-text {
+    height: fit-content;
+    display: inline-block;
+
+    font-family: 'Teko', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 30px;
+    color: white;
+}
+
+.glitchh-for-staying-other-text {
+    font-family: 'Teko', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 35px;
+    color: #A5A1A1;
+    text-align: end;
+    margin-top: 20px;
+}
+
+.world-total-gamers {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    /* background-color: green; */
+}
+
+.world-total-gamers .game-tilters {
+    text-align: left;
+}
+
+.world-total-gamers .gamers-around-world {
+    text-align: right;
+}
+
+.world-total-gamers .amount-text {
+    font-family: 'Teko', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 20px;
+    color:
+        #F5E8E8
+}
+
+.world-total-gamers .amount {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+
+    color: #E82352;
+}
+
+.register-now-button {
+    margin-top: 20px;
+    font: inherit;
+    border: 1px solid #E82352;
+    background: #E82352;
+    color: white;
+    cursor: pointer;
+    font-size: 1.15rem;
+    border-radius: 10px;
+    width: 100%;
+    height: 50px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    font-family: 'system-ui';
+}

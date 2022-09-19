@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
+.AddGames {
+    background-color: #161111;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    max-height: 700px;
+    min-height: 300px;
+    width: 400px;
+    box-shadow: 0px 4px 25px rgba(255, 255, 255, 0.1);
+    font-family: 'Poppins', sans-serif;
+    padding: 12px 12px;
+    justify-content: space-between;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    border-bottom: 1px solid #8E8E8E;
+    align-items: center;
+    padding-bottom: 5px;
+
+}
+
+.AddGameText {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.cancelBtn {
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.gamesDropDown label {
+    display: block;
+}
+
+label {
+    color: white;
+    font-size: 10px;
+    color: #959595;
+}
+
+
+.selectGame {
+    background-color: #161111;
+    color: white;
+    border: 1px solid #8E8E8E;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100%;
+    height: 27px;
+}
+
+.game_not_on_the_list {
+    display: flex;
+    gap: 8px;
+    font-size: 10px;
+    color: #959595;
+    align-items: center;
+    justify-content: start;
+
+
+}
+
+input[type='checkbox'] {
+    accent-color: white;
+}
+
+.openGameFromDesktop {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* background-color: red; */
+}
+
+.gameName label {
+    display: block;
+}
+
+.gameName input {
+    background-color: #161111;
+    color: white;
+    border: 1px solid #8E8E8E;
+    border-radius: 10px;
+    height: 27px;
+
+    /* padding-top: 5px;
+    padding-bottom: 5px; */
+}
+
+::-webkit-file-upload-button {
+    /* background: #474747;
+    color: white;
+
+    float: right; */
+    /* float: left; */
+
+
+
+
+    /* height: 27px;
+    border-radius: 10px; */
+
+}
+
+
+
+.gameImage label {
+    display: block;
+    margin-left: 5px;
+}
+
+.gameImage input {
+    display: none;
+}
+
+
+
+.center {
+    width: 180px;
+    margin-left: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: green; */
+    height: 27px;
+    border: 1px solid #8E8E8E;
+    border-radius: 10px;
+    font-size: 10px;
+    color: #959595;
+}
+
+.center label {
+    height: 100%;
+    background-color: #494747;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: none;
+    padding-left: 10px;
+    padding-right: 5px;
+}
+
+img {
+    width: 100%;
+    height: 150px;
+    margin-top: 5px;
+    object-fit: fill;
+    margin-top: 10px;
+}
+
+button {
+    background-color: #AD2A4A;
+
+    border: none;
+    border-radius: 8px;
+    font-size: 10px;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+button {
+    margin-top: 10px;
+}
